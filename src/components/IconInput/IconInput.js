@@ -13,7 +13,14 @@ const IconInput = ({
   size,
   placeholder,
 }) => {
-  return 'TODO';
+  return <form>
+    <div>
+      
+      <input type = 'text' placeholder = {placeholder}>X</input>
+    </div>
+  </form>
 };
+
+
 
 export default IconInput;
